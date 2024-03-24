@@ -9,7 +9,7 @@ import java.util.Set;
  * 
  * @author Joseph Kabesha 
  * @author Isaiah Ayres
- * @author Dan Obrien
+ 
  */
 public class SetOperations {
     public static void main(String[] args) {

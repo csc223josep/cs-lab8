@@ -7,7 +7,6 @@ import java.util.Iterator;
  * 
  * @author Joseph Kabesha 
  * @author Isaiah Ayres
- * @author Dan Obrien
  */
 public class SetIterators {
     public static void main(String[] args) {

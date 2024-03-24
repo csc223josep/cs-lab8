@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -8,7 +9,7 @@ import java.util.stream.Collectors;
  * 
  * @author Joseph Kabesha 
  * @author Isaiah Ayres
- * @author Dan Obrien
+ 
  */
 public class SetLambda {
     public static void main(String[] args) {
@@ -28,7 +29,8 @@ public class SetLambda {
                                       .filter(i -> i % 2 == 0)          // Filter even numbers
                                       .map(i -> i * i)                  // Square each number
                                       .collect(Collectors.toSet());     // Collect the results into a new set
-        // Print the squared set
+       
         squaredSet.forEach(System.out::println);
     }
+
 }
